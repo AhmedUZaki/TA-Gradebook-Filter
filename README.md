@@ -41,7 +41,7 @@ A username alone is enough; you do not need to include `@` or an email domain. Y
 
 Matching rows appear in the order specified in the text file. Click **Cancel** to close the dialog without applying changes.
 
-Refresh the page to restore its original rows, columns, and ordering. Choose **Show All Columns** when rerunning the bookmarklet to reveal columns hidden by a previous run.
+The bookmarklet can run only once per page load. Any further attempt displays a message asking you to refresh the page. Refresh to run it again and restore the original rows, columns, and ordering. This also applies if you cancel the file picker or filter dialog.
 
 ## How it works
 
