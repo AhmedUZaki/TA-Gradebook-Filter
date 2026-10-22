@@ -24,12 +24,12 @@ This file is a bookmarklet: run it from a bookmark while viewing the gradebook, 
 Create a plain-text file such as `students.txt`, with one identifier per line:
 
 ```text
-student1@example.com
-student2@example.com
-student3@example.com
+student1
+student2
+student3
 ```
 
-Use unique identifiers such as complete email addresses or student IDs. Matching uses a **substring search across the entire row**, so short or ambiguous entries may select the wrong student. Only the first matching row is selected for each entry.
+A username alone is enough; you do not need to include `@` or an email domain. You can also use a complete email address or student ID, provided it appears in the student row. Use unique identifiers. Matching uses a **substring search across the entire row**, so short or ambiguous entries may select the wrong student. Only the first matching row is selected for each entry.
 
 ## Usage
 
